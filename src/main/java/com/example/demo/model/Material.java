@@ -1,9 +1,10 @@
 package com.example.demo.model;
 
+
 public class Material {
-    private int id;
+    private Integer id;
     private String name;
-    private int quantity;
+    private Integer quantity;
 
     public Material(){}
 
