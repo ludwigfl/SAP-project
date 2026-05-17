@@ -33,16 +33,12 @@ public class MaterialController {
 
     @PostMapping("/{id}/in")
     public void addStock(@PathVariable int id, @RequestParam int quantity){
-        if(id >= 0){
-            service.increaseStock(id, quantity);
-        }
+        service.increaseStock(id, quantity);
     }
 
     @PostMapping("/{id}/out")
     public void removeStock(@PathVariable int id, @RequestParam int quantity){
-        if(id >= 0){
-            service.reduceStock(id, quantity);
-        }
+        service.reduceStock(id, quantity);
     }
 
 

@@ -8,11 +8,11 @@ public class Material {
 
     public Material(){}
 
-    public Material( int id, String name, int quantity){
+    public Material( Integer id, String name, Integer quantity){
         this.id = id; this.name = name; this.quantity = quantity;
     }
 
-    public int getId(){
+    public Integer getId(){
         return id;
     }
 
@@ -28,7 +28,7 @@ public class Material {
         this.name = name;
     }
 
-    public int getQuantity(){
+    public Integer getQuantity(){
         return quantity;
     }
 
