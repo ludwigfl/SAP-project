@@ -99,7 +99,7 @@ POST /materials/{id}/in?qty=<QUANTITY>
 Example:
 
 ```bash
-curl -X POST "http://localhost:8080/materials/1/in?qty=5"
+curl -X POST "http://localhost:8080/materials/1/in?quantity=5"
 ```
 
 ---
@@ -113,7 +113,7 @@ POST /materials/{id}/out?qty=<QUANTITY>
 Example:
 
 ```bash
-curl -X POST "http://localhost:8080/materials/1/out?qty=2"
+curl -X POST "http://localhost:8080/materials/1/out?quantity=2"
 ```
 
 ---

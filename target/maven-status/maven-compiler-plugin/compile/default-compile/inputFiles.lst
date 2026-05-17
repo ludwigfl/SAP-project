@@ -1,1 +1,4 @@
 /home/willi/Documents/GitHub/SAP-project/src/main/java/com/example/demo/DemoApplication.java
+/home/willi/Documents/GitHub/SAP-project/src/main/java/com/example/demo/controller/MaterialController.java
+/home/willi/Documents/GitHub/SAP-project/src/main/java/com/example/demo/model/Material.java
+/home/willi/Documents/GitHub/SAP-project/src/main/java/com/example/demo/service/MaterialService.java
