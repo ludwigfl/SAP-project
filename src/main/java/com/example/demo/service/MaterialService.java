@@ -21,7 +21,7 @@ public class MaterialService {
         return materials;
     }
 
-    public Optional<Material> getById(Long id){
+    public Optional<Material> getById(int id){
         for(Material mat : materials){
             if(mat.getId() == (id)){
                 return Optional.of(mat);
@@ -38,7 +38,7 @@ public class MaterialService {
 
     public void reduceStock(int id, int amount){
         for(Material mat : materials){
-            if(mat.getId() == (id)){
+            if(mat.getId() == id){
                 mat.setQuantity(mat.getQuantity() - amount);
             }
         }
@@ -46,7 +46,7 @@ public class MaterialService {
 
      public void increaseStock(int id, int amount){
         for(Material mat : materials){
-            if(mat.getId() == (id)){
+            if(mat.getId() == id){
                 mat.setQuantity(mat.getQuantity() + amount);
             }
         }
